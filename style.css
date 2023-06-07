@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+
+
+
+.container-fluid {
+
+    height: 50px;
+
+
+
+}
+
+.navbar-brand {
+
+    font-family: dm sans;
+    margin-left: 3rem;
+
+}
+
+.navbar-nav {
+
+
+    font-family: roboto;
+    margin-left: 30rem;
+}
+
+.opcion {
+
+    margin: 2rem;
+}
+
+.saic {
+
+    font-style: dm sans;
+}
+
+.imagen {
+
+    width: 100%;
+
+    margin: auto;
+
+    display: block;
+}
+
+.video {
+
+    width: 100%;
+
+    margin: auto;
+
+    display: block;
+
+
+
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container .descripcion {
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    right: 0;
+    background-color: transparent;
+    color: #313131;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    font-family: raleway;
+}
+
+.container:hover .descripcion {
+    opacity: 1;
+}
+
+#mdz1 {
+    transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+}
